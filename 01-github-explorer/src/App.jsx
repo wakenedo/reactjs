@@ -1,6 +1,13 @@
+import { Counter } from './components/Counter'
+import { RepositoryList } from './components/RepositoryList'
 import './Styles/global.scss'
 
 export function App() {
 
-   return <h1> Hello React.js </h1> 
+   return (
+    <>   
+        <RepositoryList />
+        <Counter />
+    </>
+   )
 }
